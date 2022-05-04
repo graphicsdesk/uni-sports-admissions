@@ -6,13 +6,203 @@
     "posthtml-expressions": {
       "root": "./src/partials",
       "locals": {
-        "top": [],
-        "body": [],
+        "top": [
+          {
+            "type": "graphic",
+            "value": {
+              "asset": "scrollychart.html"
+            }
+          },
+            {
+              "type": "graphic",
+              "value": {
+                "asset": "scrollychartsmall.html"
+              }
+            }
+          
+        ],
+        "body": [
+          {
+            "type": "text",
+            "value": "Data obtained by Spectator reveals that 56 percent of Columbia’s student-athletes attended private high school and that many also played in often expensive private sports clubs in high school."
+          },
+          {
+            "type": "text",
+            "value": "Columbia, the only Ivy League university that does not release a Common Data Set—a set of <a href=\"https://www.columbiaspectator.com/news/2022/03/03/math-professors-analysis-raises-questions-about-columbias-us-news-ranking/\">data-sharing standards</a> between a variety of organizations—declined to release information about the overall student population breakdown of who comes from public versus private high schools. However, surveys at peer institutions have found common trends in the split between public and private education. A <a href=\"https://features.thecrimson.com/2015/freshman-survey/makeup-narrative/#:~:text=Before%20coming%20to%20Harvard%2C%2063,denominational%20and%2010%20percent%20parochial\">survey</a> conducted by the Harvard Crimson found that 39 percent of students in Harvard’s class of 2019 attended private schools, compared to 9 percent of students nationwide according to the National Center for Education Statistics. 37 percent of admitted students in Yale University’s class of 2025 attended private schools, as did 40 percent at Princeton University and 46 percent at Dartmouth College."
+          },
+          {
+            "type": "text",
+            "value": "Assuming Columbia has a ratio of students who attended private to public high schools similar to its aforementioned peer institutions, there is roughly a 10 to 20 percent disparity between the number of athletes from private schools and that same number with respect to the total student population."
+          },
+          {
+            "type": "text",
+            "value": "At a school renowned for its academics, varsity athletes—many of whom were recruited during high school—make up nearly 12 percent of the Columbia student body. The University’s athletic program sponsors 29 individual teams and includes a total of 789 student-athletes. Among these athletes, 447 attended a private high school and 351 attended a public one."
+          },
+          {
+            "type": "text",
+            "value": "Trends in Columbia’s athletic recruiting reflect larger trends in Columbia’s admissions process. The University, which has one of the highest costs of attendance in the country, is less reliant on returns from its endowment and <a href=\"https://www.columbiaspectator.com/news/2020/11/30/columbia-may-look-whiter-and-wealthier-next-year-heres-why/\">more reliant on tuition dollars</a> than its Ivy League peers, meaning it has much to gain from admitting students who can pay full price. It also continues to use admissions policies, such as <a href=\"https://www.columbiaspectator.com/news/2022/02/15/columbia-claims-to-evaluate-applicants-on-a-need-blind-basis-does-its-early-decision-process-suggest-otherwise/\">early decision</a> and <a href=\"https://www.columbiaspectator.com/news/2022/03/24/lawmakers-introduce-bill-to-prohibit-legacy-and-early-admissions-policies-statewide/?fbclid=IwAR2I5Srj9izKv-jv9t9S5J3-Sx24gNfJ4snBwXjZcB3l6FsNBXiGqyWXKbM\">legacy preference</a>, that systematically prefer wealthier applicants."
+          },
+          {
+            "type": "text",
+            "value": "The ratio of private to public school athletes also varies widely by team. Softball has the lowest ratio, with four athletes who attended private schools and 15 athletes who attended public schools. Men’s basketball and heavyweight rowing, on the other hand, have private to public ratios of 15 to 2 and 31 to 7, respectively."
+          },
+          {
+            "type": "text",
+            "value": "Diver Macy Pine, CC ’25, said much of the disparity in recruitment outcomes can be explained by private school coaches offering better advising for the Ivy League recruiting process. But Pine attended Los Angeles Center for Enriched Studies, a public university preparatory high school in Los Angeles."
+          },
+          {
+            "type": "text",
+            "value": "“None of the administrators or coaches knew anything about college recruiting,” Pine said. “The coaches at my club were somewhat helpful at putting me in contact with coaches, but most of the communication and organizing was pretty much up to me.”"
+          },
+          {
+            "type": "text",
+            "value": "Although Pine’s status as an elite diver made coaches eager to recruit her, she still felt that her school’s lack of connections and guidance hindered her recruiting experience. Pine said she “didn’t have as much prior knowledge” as “most athletes” in her sport, who she says “have better connections via their school and their club coaches.”"
+          },
+          {
+            "type": "text",
+            "value": "“I think athletes are really put at a disadvantage by schools who manipulate them,” she said. “They know that athletes don’t understand the rules and regulations of recruiting, and I think everyone should be more open with each other about the process so no one is at a disadvantage.”"
+          },
+          {
+            "type": "text",
+            "value": "Heavyweight rower Nick Hazard, CC ’25, said his private high school rowing coach was a crucial figure in helping him navigate the recruiting process. While the process differs from sport to sport, it generally follows a similar timeline. Athletes start reaching out to coaches around their junior year of high school to inform the coaches of their academic record, interest in the college, and level of athletic competition."
+          },
+          {
+            "type": "text",
+            "value": "“You’ll send an introductory email which basically says the most important statistics that are related to the recruiting process: your GPA, your erg score, your race results, and your SAT or ACT scores,” Hazard said. “Those four statistics are really important, because they all factor into the composition of the team that coaches are trying to create.”"
+          },
+          {
+            "type": "text",
+            "value": "Once they receive all the aspects of an athlete’s portfolio, Ivy League coaches communicate with their offices of undergraduate admissions to <a href=\"https://ivyleague.com/sports/2017/7/28/information-psa-index.aspx\">determine which students are admitted</a>."
+          },
+          {
+            "type": "text",
+            "value": "Ivy League schools evaluate potential student-athletes <a href=\"https://www.mka.org/uploaded/college_counseling/Publications/AI_Guidelines_Worksheet.pdf\">using a measurement tool known as the Academic Index</a>, which combines GPA, test scores, and a variety of other factors specific to each individual school into one number from 60 to 240. After assigning each candidate a number, admissions officers compare student-athletes to their campus average, thereby quickly assessing candidates’ proximity to the mean."
+          },
+          {
+            "type": "text",
+            "value": "Hazard said he started the process during the spring of his junior year of high school by attending information sessions and working with his coaches to familiarize himself with the process of reaching out to university coaches."
+          },
+          {
+            "type": "text",
+            "value": "“My coaches would disseminate information about everything that you need to know, like starting an email to send to a coach, … what sort of stuff you include in emails with coaches, and what general conversation should look like,” Hazard said."
+          },
+          {
+            "type": "text",
+            "value": "Advice from Hazard’s coaches proved invaluable, as he was instructed to avoid reaching out to colleges as a sophomore when his times weren’t as impressive, to attend large regattas and talk with college coaches, and to contact best-fit schools once his training time on the erg crossed a certain threshold. He said this recruitment process “could be a barrier” for students with coaches who “don’t have a lot of experience” and “don’t know much about the process.”"
+          },
+          {
+            "type": "text",
+            "value": "“You can have the ACT score, you can have the erg score, but you don’t know when to talk to coaches, you don’t know which coaches to email, and stuff like that,” Hazard said. “That’s important information to have.”"
+          },
+          {
+            "type": "text",
+            "value": "For runner Lilly Bradley, CC ’25, meanwhile, the recruiting process was disrupted by the COVID-19 pandemic, which canceled track season and prevented her from receiving enough information about navigating recruitment from her high school coaches. In order to compete with other athletes more familiar with the process, Bradley worked with a specialized recruiting coach instead."
+          },
+          {
+            "type": "text",
+            "value": "“It makes such a difference,” Bradley said. “I’m very aware of the fact that I was able to afford to have [a recruitment counselor]. … She was wonderful. It was such a stress reliever and … really put me at an advantage, because any major question … I had, she was able to answer.”"
+          },
+          {
+            "type": "text",
+            "value": "Among student-athletes who attended public schools, many still participated in private club teams outside of school, which can prove advantageous to participating students. These club teams—which often include year-round training, a higher level of competition, help with college placement, and increased visibility to college coaches—can be crucial in the recruiting process."
+          },
+          {
+            "type": "text",
+            "value": "A 2019 NCAA study found that a majority of college athletes participated in club sports outside of school in addition to school sports. Over 91 percent of basketball players, 94 percent of softball players, and 85 percent of baseball players participated in some form of club-based athletics in high school. With costs ranging from just a few hundred dollars to five figures, players pay bigger sums for more intensive training, more far-flung travel, and a greater chance to showcase their skills to college recruiters."
+          },
+          {
+            "type": "text",
+            "value": "When a majority of their competitors participate in programs such as these, which are often expensive, athletes who hope to keep up can feel obliged to participate in these programs as well."
+          },
+          {
+            "type": "text",
+            "value": "Hazard detailed how crucial these clubs are to an athlete’s portfolio. Hazard, who attended a private high school in Boston, said that “most people end up rowing at clubs in the area.”"
+          },
+          {
+            "type": "text",
+            "value": "“There are a few notable clubs that have really good pipelines to top programs,” Hazard said. “They’ll usually produce anywhere from five to 10 Division 1 rowers each.”"
+          },
+          {
+            "type": "text",
+            "value": "Andreas Zamanian, CC ’24, a goalkeeper recruited for Columbia men’s soccer, said youth club teams produce “the highest level of competition,” making high school students’ participation in these teams even more crucial in college admissions."
+          },
+          {
+            "type": "text",
+            "value": "“When you’re part of one of these clubs, it’s comparable to the time commitment you have at a Division 1 school,” Zamanian said."
+          },
+          {
+            "type": "text",
+            "value": "Private school athletic programs also often provide athletes a degree of legitimacy through prominent coaches or established programs. Heavyweight rower Adrian Foley, CC ’25, said his high school coach’s status as a distinguished coach who is not only “very well known in the rowing community and had coached at a bunch of prestigious colleges, …  [but also] had a lot of connections with other high school and other college coaches” provided him a leg up in the recruiting process."
+          },
+          {
+            "type": "text",
+            "value": "“It made it easier, at least I think, for me coming from a coach that was well-known … and even coached along [with] a bunch of these other recruiters,” Foley said."
+          },
+          {
+            "type": "text",
+            "value": "A coach’s ability to advocate for an athlete at the collegiate level is also a significant element of the recruiting process, and Zamanian echoed how important it is for soccer players to be at a club where their coach has the connections to be able to put in a good word for them."
+          },
+          {
+            "type": "text",
+            "value": "“College coaches definitely [reach] out to club coaches,” Zamanian said. “That was a very big thing, because your club coach can speak more to your character and your personality, which is important for college coaches.”"
+          },
+          {
+            "type": "text",
+            "value": "Connections within a sports community are especially crucial to recruiting for more niche sports like fencing. Fencer Justin Haddad, CC ’25, said one of his older peers served as an important connection who guided him through recruiting."
+          },
+          {
+            "type": "text",
+            "value": "“I had a friend of mine at my fencing club who was four years older and he was kind of my coach through the whole process,” Haddad said. “He … very much had my best interests at heart and helped talk me and my parents through the entire process.”"
+          },
+          {
+            "type": "text",
+            "value": "Haddad said he passed this knowledge on to younger fencers in his club and has used his own connections to help the next generation get recruited."
+          },
+          {
+            "type": "text",
+            "value": "“I remember there was this one friend of mine who’s a couple years younger, and who I actually really wanted to come [to Columbia],” Haddad said. “I would tell our coach myself, ‘Hey, I think this person is a really good choice for recruitment at this school.’”"
+          },
+          {
+            "type": "text",
+            "value": "While competing at the highest level of a sport is expensive, it is often the only way for an elite athlete to get recruited to a Division 1 program. Archer Meghan Collins, CC ’22, trained at the U.S. National Team facility and competed in national archery tournaments, which she said was challenging for someone with a low-income background like herself."
+          },
+          {
+            "type": "text",
+            "value": "“When I lived at the facility, I got to live there for free and got meals, but I also had to have a job,” Collins said. “I had to pay for my tournament fees, my flights, and my accommodations while we’re at a tournament. [The national team] helped with equipment, but if you’re not on the senior national team, you’re not getting any money.”"
+          },
+          {
+            "type": "text",
+            "value": "In the recruiting process, the status of the club or private school team for which an athlete competes can make all the difference. These programs give players better connections to college coaches, a larger and more intense training regimen, and a higher level of competition—all of which are potentially crucial to their success in the recruiting process."
+          },
+          {
+            "type": "text",
+            "value": "“Notability is really important,” Hazard said. “Whether that’s a notable club team or a notable school team, having a coach who knows how to advocate for you is an essential feature.”"
+          },
+          {
+            "type": "text",
+            "value": "<i>The University and Columbia Athletics did not respond to requests for comment at the time of publication. </i>"
+          },
+          {
+            "type": "text",
+            "value": "<i>Staff writer Benjamin Stein can be contacted at </i><i>benjamin.stein@columbiaspectator.com</i><i>. Follow him on Twitter @</i><a href=\"https://twitter.com/benjaminpstein\"><i>benjaminpstein</i></a><i>.</i>"
+          },
+          {
+            "type": "text",
+            "value": "<i>Deputy Sports Editor Stephen Dames can be contacted at </i><i>stephen.dames@columbiaspectator.com</i><i>. Follow him on Twitter @</i><a href=\"https://twitter.com/DamesStephen\"><i>DamesStephen</i></a>"
+          },
+          {
+            "type": "text",
+            "value": "<b><i>Want to keep up with breaking news? Subscribe to our </i></b><a href=\"https://columbiaspectator.us4.list-manage.com/subscribe?u=a3d2eeb1ae5560ca04f82f042&id=e51c51d62d\"><b><i>email newsletter </i></b></a><b><i>and like Spectator on </i></b><a href=\"https://www.facebook.com/columbiaspectator\"><b><i>Facebook</i></b></a><b><i>.</i></b>"
+          }
+        ],
+        "headline": "An unmistakable advantage: Private high schools and club sports teams make a difference in recruitment for Columbia athletes",
+        "date": "May 3, 2022",
+        "byline": "By <a href=\"https://www.columbiaspectator.com/contributors/Benjamin-Stein/\">Benjamin Stein</a> and <a href=\"https://www.columbiaspectator.com/contributors/Stephen-Dames/\">Stephen Dames</a>",
         "USE_NEWS_NAV": true,
         "USE_EYE_NAV": false,
         "USE_COVER_HED": false,
         "IS_EMBED": false,
-        "DOC_URL": null
+        "DOC_URL": "https://docs.google.com/document/d/10zxBDWaBGDcv2Ai-BNYtQqqLqreaa9CJkfRT1dBAxT8/edit#"
       }
     }
   }

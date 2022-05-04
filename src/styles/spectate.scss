@@ -353,7 +353,9 @@ header {
     text-decoration: underline;
   }
 }
-
+#navbar{
+  top:0;
+}
 // Collapse navbar
 @media (max-width: 760px) {
   #navbar {
