@@ -56,11 +56,10 @@ function handleStepEnter(response) {
       els2[i].style.stroke='#F9FFD3';
       els2[i].style.zIndex="10";
     }
-    document.querySelector('#squash_public')["stroke"]='#F9FFD3';
-    document.querySelector('#softball_public')["stroke"]='#F9FFD3';
+    document.querySelector('#squash_public').style.stroke='#F9FFD3';
+    document.querySelector('#softball_public').style.stroke='#F9FFD3';
   }
-  if(response.index==3){
-    console.log("fire")
+  if(response.index==3){  
     document.querySelector('#squash_priv').style.stroke='#a4c7f5';
     document.querySelector('#squash_public').style.stroke='#a4c7f5';
   }
@@ -111,6 +110,29 @@ function resizeSVG(response){
       for(var i=0;i<els3.length;i++){
         //var changenum2 = parseFloat(getComputedStyle(els4[i])["stroke-width"]).toFixed(4)*0.3;
         els4[i].setAttribute('style','stroke-width:'+els4num[i]*(window.innerWidth/1500)+'px');
+      }
+  }
+  else{
+    var els3 =document.querySelectorAll('#pubskool')
+    var els4 =document.querySelectorAll('#privskool')
+    //console.log(els3);
+    //console.log("yeah1");
+    document.querySelector('#squash_priv').setAttribute('style','stroke-width:'+rest[0]+'px');
+    document.querySelector('#squash_public').setAttribute('style','stroke-width:'+rest[1]+'px');
+    document.querySelector('#softball_private').setAttribute('style','stroke-width:'+rest[2]+'px');
+    document.querySelector('#softball_public').setAttribute('style','stroke-width:'+rest[3]+'px');
+    for(var i=0;i<els3.length;i++){
+      //console.log(els3[i].style["stroke-width"]);
+      //var changenum = parseFloat(getComputedStyle(els3[i])["stroke-width"]).toFixed(4)*0.3;
+      //console.log("yeah2");
+      //console.log(changenum);
+      //console.log("yeah4");
+      els3[i].setAttribute('style','stroke-width:'+els3num[i]+'px');
+      //console.log("yeah5");
+      }
+      for(var i=0;i<els3.length;i++){
+        //var changenum2 = parseFloat(getComputedStyle(els4[i])["stroke-width"]).toFixed(4)*0.3;
+        els4[i].setAttribute('style','stroke-width:'+els4num[i]+'px');
       }
   }
 }
